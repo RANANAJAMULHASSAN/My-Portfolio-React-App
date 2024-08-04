@@ -1,0 +1,48 @@
+.socialConteiner {
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    right: -35px;
+    z-index: 10;
+
+}
+
+.line {
+    width: 135px;
+    background: linear-gradient(white, rgb(173, 195, 217));
+    height: 5px;
+    transform: rotate(90deg);
+}
+
+.socialIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+@media (max-width: 600px) {
+    .socialConteiner {
+        right: -25.5px;
+        gap: 60px;
+        top: 10rem;
+
+
+
+    }
+
+    .line {
+        width: 80px;
+
+    }
+
+    .socialIcon .icon {
+        font-size: 1.3rem;
+    }
+
+}

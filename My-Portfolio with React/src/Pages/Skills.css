@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.card h1 h4 {
+  color: grey;
+}
+
+.skills-section {
+  padding: 0 70px;
+  margin-bottom: 100px;
+}
+
+.skills-section h2 {
+  text-align: center;
+  color: grey;
+
+
+}
+
+.skills-section .text {
+  text-align: center;
+  margin-bottom: 20px;
+  color: grey;
+  padding: 0 10px;
+}
+
+.skills-section .cells {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-section .cells .cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 200%;
+  padding: 10px 4px;
+  padding-left: 20px;
+  margin: 10px;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.skills-section .cells .cell img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.skills-section .cells .cell span {
+  font-size: 18px;
+  color: grey;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+}
+
+.skillStyling {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 20px;
+}
+
+.html,
+.CSS,
+.javascript,
+.node,
+.react {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 20px;
+}
+
+.html {
+  width: 100%;
+  background-color: #4caf50;
+}
+
+.CSS {
+  width: 95%;
+  background-color: #2196f3;
+}
+
+.javascript {
+  width: 75%;
+  background-color: #f0861d;
+}
+
+.react {
+  width: 80%;
+  background-color: #563ac8;
+}
+
+@media (max-width: 600px) {
+  .skills-section {
+    padding: 0 20px;
+  }
+
+  .skills-section .cells .cell span {
+    font-size: 16px;
+  }
+
+  .skills-section .cells .cell {}
+
+  .card p {
+    padding: 0 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 0 50px;
+  }
+
+  .skills-section .cells .cell span {
+    font-size: 16px;
+  }
+
+  .skills-section .cells .cell {}
+
+  .card p {
+    padding: 0 6px;
+  }
+}

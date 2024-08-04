@@ -1,0 +1,52 @@
+[
+    {
+        "img": "assets/Images/html-logo.webp",
+        "title": "HTML",
+        "percent": "100%",
+        "width": "100%",
+        "color": "#4caf50",
+        "margin": "60px",
+        "class": "skillStyling",
+        "classes": "html"
+    },
+    {
+        "img": "assets/Images/css-logo.webp",
+        "title": "CSS",
+        "percent": "95%",
+        "width": "95%",
+        "color": "#2196f3",
+        "margin": "70px",
+        "class": "skillStyling",
+        "classes": "CSS"
+    },
+    {
+        "img": "assets/Images/images.png",
+        "title": "TAILWIND",
+        "percent": "95%",
+        "width": "95%",
+        "color": "#2196f3",
+        "margin": "23px",
+        "class": "skillStyling",
+        "classes": "CSS"
+    },
+    {
+        "img": "assets/Images/javascript-logo.webp",
+        "title": "JavaScript",
+        "percent": "75%",
+        "width": "65%",
+        "color": "#f0861d",
+        "margin": "15px",
+        "class": "skillStyling",
+        "classes": "javascript"
+    },
+    {
+        "img": "assets/Images/react-logo.webp",
+        "title": "React.js",
+        "percent": "80%",
+        "width": "80%",
+        "color": "#563ac8",
+        "margin": "40px",
+        "class": "skillStyling",
+        "classes": "react"
+    }
+]

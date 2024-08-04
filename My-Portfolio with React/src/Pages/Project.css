@@ -1,0 +1,83 @@
+.services,
+.teams {
+    color: #0b0b0b;
+
+}
+.services span{
+    color: gray;
+}
+
+.services .title::before,
+.teams .title::before {
+    background: #fff;
+}
+
+.services .title::after,
+.teams .title::after {
+    background: #fcfbfb;
+    content: "Projects";
+}
+
+.services .serv-content .card {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.services .serv-content .card i {
+    font-size: 32px;
+    color: rgb(21, 20, 21);
+    margin-top: 10px;
+
+}
+
+.services .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    padding: 1rem;
+}
+
+.box {
+    background: linear-gradient(white, rgb(173, 195, 217));
+}
+
+.details {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    background-color: rgb(144, 166, 200);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.details:hover {
+    background-color: rgb(17, 34, 64);
+    color: white;
+    transition: all 1s ease;
+}
+.card img{
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .services .serv-content .card {
+        width: 90%;
+    }
+    .card img {
+        width: 85%;
+    }
+}

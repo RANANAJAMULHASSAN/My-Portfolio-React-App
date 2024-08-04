@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "projectName": "Microsoft",
+            "thumbnail": "Projectimg/Microsoft-clone.png",
+            "Description": "",
+            "buttonimg": "PREVIEW AS IMAGE",
+            "buttonview": "PREVIEW SITE",
+            "viewImg": "Projectimg/Microsoft-clone full-img.png",
+            "link": ""
+        },
+        {
+            "projectName": "Netflix",
+            "thumbnail": "Projectimg/Netflix-clone.png",
+            "Description": "",
+            "buttonimg": "PREVIEW AS IMAGE",
+            "buttonview": "PREVIEW SITE",
+            "viewImg": "Projectimg/Netflix-clone-full-image.png",
+            "link": ""
+        },
+        {
+            "projectName": "Shopify",
+            "thumbnail": "Projectimg/Shopify-Clone.png",
+            "Description": "",
+            "buttonimg": "PREVIEW AS IMAGE",
+            "buttonview": "PREVIEW SITE",
+            "viewImg": "Projectimg/Shopify-full-image.png",
+            "link": "https://najam-ul-hassan-shopify.netlify.app/"
+        },
+        {
+            "projectName": "UltraEdit",
+            "thumbnail": "Projectimg/UltraEdit-Clone.png",
+            "Description": "",
+            "buttonimg": "PREVIEW AS IMAGE",
+            "buttonview": "PREVIEW SITE",
+            "viewImg": "Projectimg/UltraEdit-full-image.png",
+            "link": "https://najam-ul-hassan-ultraedit.netlify.app/"
+        }
+    ]
+}
